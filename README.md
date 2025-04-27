@@ -39,14 +39,14 @@ python app.py
 ## Truy cập qua API
 ### Để truy cập dữ liệu qua API, bạn có thể sử dụng token được cung cấp. Cấu trúc API như sau:
 
-### URL truy cập: https://example.com/data
+### URL truy cập: [[https://example.com/data](https://d15c-34-139-5-210.ngrok-free.app/)]
 
 ## Cách sử dụng token trong URL:
 ``` bash
 import requests
 
 # URL và token
-url = "https://example.com/data"
+url = "[https://example.com/data](https://d15c-34-139-5-210.ngrok-free.app/)"
 token = "2wIdHLEeJI9sBLsjQ3Lkt30ZYkT_33pMAYJokqqqyypmD9Zz9"
 
 # Truy cập qua URL với token
@@ -63,7 +63,7 @@ else:
 import requests
 
 # URL và token
-url = "https://example.com/data"
+url = "[https://example.com/data](https://d15c-34-139-5-210.ngrok-free.app/)"
 token = "2wIdHLEeJI9sBLsjQ3Lkt30ZYkT_33pMAYJokqqqyypmD9Zz9"
 
 # Thiết lập header với token
@@ -81,9 +81,8 @@ else:
     print("Lỗi khi truy cập: ", response.status_code)
 ```
 ## Liên hệ
-### Tác giả: Quỳnh Phương
-
-### Email: dinhlequynhphuong@gmail.com
+- Tác giả: Quỳnh Phương
+- Email: dinhlequynhphuong@gmail.com
 
 ## Giấy phép
-### Ứng dụng này được phát hành dưới giấy phép [Tên giấy phép]. Xem LICENSE.md để biết thêm chi tiết.
+Ứng dụng này được phát hành dưới giấy phép [Tên giấy phép]. Xem LICENSE.md để biết thêm chi tiết.
