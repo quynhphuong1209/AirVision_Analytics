@@ -40,7 +40,7 @@ python app.py
 ## 🌐 Truy cập dữ liệu qua API
 ### Để truy cập dữ liệu qua API, bạn có thể sử dụng token được cung cấp. Cấu trúc API như sau:
 
-### URL truy cập: [[https://example.com/data](https://d15c-34-139-5-210.ngrok-free.app/)]
+### URL truy cập: [https://example.com/data](https://d15c-34-139-5-210.ngrok-free.app/)](https://6bd7-34-147-113-9.ngrok-free.app/)]
 
 ## Cách sử dụng token trong URL:
 ``` bash
