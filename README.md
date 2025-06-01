@@ -1,19 +1,20 @@
 # AirVision Analytics
 
-**AirVision Analytics** là một ứng dụng trực quan hóa dữ liệu chất lượng không khí và khí tượng theo thời gian thực. Ứng dụng cho phép người dùng theo dõi chất lượng không khí và các yếu tố khí tượng liên quan, với dữ liệu được thu thập và phân tích từ các nguồn đáng tin cậy.
+**AirVision Analytics là một ứng dụng trực quan hóa dữ liệu chất lượng không khí và thời tiết theo thời gian thực. Ứng dụng hỗ trợ người dùng theo dõi các chỉ số quan trọng về môi trường, giúp đưa ra các quyết định phù hợp với sức khỏe và hoạt động hằng ngày.
 
-## Tính năng chính
+## 🎯Tính năng chính
 - Trực quan hóa dữ liệu chất lượng không khí và khí tượng theo thời gian thực.
-- Hỗ trợ theo dõi các chỉ số như PM2.5, PM10, nhiệt độ, độ ẩm, tốc độ gió, v.v.
-- Cung cấp biểu đồ và đồ thị dễ hiểu, giúp người dùng nắm bắt thông tin nhanh chóng.
-- Cập nhật dữ liệu thường xuyên từ các nguồn khí tượng và chất lượng không khí.
+- Hỗ trợ theo dõi các chỉ số như:
+  + PM2.5, PM10
+  + Nhiệt độ, Độ ẩm
+  + Tốc độ gió, và nhiều chỉ số khác.
+- Biểu đồ và đồ thị sinh động, dễ hiểu.
+- Dữ liệu được cập nhật thường xuyên từ các nguồn đáng tin cậy.
 
-## Cài đặt
+## ⚙️Cài đặt
 
-### Prerequisites
-
-1. Python 3.x
-2. Thư viện yêu cầu:
+### Yêu cầu hệ thống: Python 3.x
+Thư viện cần thiết
    - `requests`
    - `pandas`
    - `matplotlib`
@@ -30,13 +31,13 @@ venv\Scripts\activate     # Trên Windows
 # Cài đặt các thư viện yêu cầu
 pip install -r requirements.txt
 ```
-## Cách sử dụng
+## 🚀Cách sử dụng
 ### Chạy ứng dụng
 ```bash
 python app.py
 ```
 
-## Truy cập qua API
+## 🌐 Truy cập dữ liệu qua API
 ### Để truy cập dữ liệu qua API, bạn có thể sử dụng token được cung cấp. Cấu trúc API như sau:
 
 ### URL truy cập: [[https://example.com/data](https://d15c-34-139-5-210.ngrok-free.app/)]
@@ -80,7 +81,7 @@ if response.status_code == 200:
 else:
     print("Lỗi khi truy cập: ", response.status_code)
 ```
-## Liên hệ
+## 📬 Liên hệ
 - Tác giả: Quỳnh Phương
 - Email: dinhlequynhphuong@gmail.com
 
